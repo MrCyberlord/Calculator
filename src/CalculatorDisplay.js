@@ -5,9 +5,7 @@ export default function CalculatorDisplay({
 }) {
   return (
     <div className="output">
-      <div className="previous-operand">
-        {previousOperand} {operation} {currentOperand}
-      </div>
+      {previousOperand} {operation} {currentOperand}
     </div>
   );
 }
